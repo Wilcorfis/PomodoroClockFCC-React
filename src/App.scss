@@ -1,0 +1,30 @@
+$background-base: #ffffff;
+$dark-edge: #cccccc;
+
+#root {
+  background-color: darken($background-base, 20%);
+  padding: 30px 10px 20px 10px;
+  max-width: 550px;
+  margin-top: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  font-family: 'Armata';
+}
+
+.wrapper {
+  margin-bottom: 25px;
+}
+
+.num {
+  font-size: 3em;
+  vertical-align: -13px;
+}
+
+#timer-label, #session-label, #break-label {
+  font-size: 1.5em;
+}
+
+span {
+  margin: 0 5px 0 5px;
+}
